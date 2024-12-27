@@ -24,7 +24,7 @@ This project extends the functionality of the [Dockerized Classifier Web App wit
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/YourUsername/Dockerized-Classifier-Web-App-with-MongoDB-Logging-And-Image-Storage
+git clone https://github.com/AzzedineNed/Dockerized-Classifier-Web-App-with-MongoDB-Logging-And-Image-Storage
 ```
 
 ### CD to the repo
