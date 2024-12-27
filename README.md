@@ -1,6 +1,6 @@
 # Dockerized-Classifier-Web-App-with-MongoDB-Logging-And-Image-Storage
 
-This project extends the functionality of the [Dockerized Classifier Web App with MongoDB Logging](https://github.com/AzzedineNed/Dockerized-Classifier-Web-App-with-MongoDB-Logging-And-Image-Storage) by incorporating a dedicated image storage system. The web app classifies uploaded images of cats or dogs using a pre-trained ResNet50 model, logs predictions to MongoDB, and stores the images themselves in MongoDB using GridFS for scalable, efficient storage.
+This project extends the functionality of the [Dockerized Classifier Web App with MongoDB Logging](https://github.com/AzzedineNed/Dockerized-Classifier-Web-App-with-MongoDB-Logging) by incorporating a dedicated image storage system. The web app classifies uploaded images of cats or dogs using a pre-trained ResNet50 model, logs predictions to MongoDB, and stores the images themselves in MongoDB using GridFS for scalable, efficient storage.
 
 ## Features
 -**Image Upload via Frontend**: Users can upload an image of a cat or dog through the frontend web interface.
