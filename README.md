@@ -56,9 +56,13 @@ docker-compose down
 ### How the System Works
 
 -**Frontend (Flask)**: Users interact with the frontend by uploading an image of a cat or dog.
+
 -**Backend (Flask)**: The frontend sends the uploaded image to the backend, where it is processed and classified using the ResNet50 model.
+
 -**Prediction and Result Display**: The backend returns the classification result, including the predicted label and confidence score, which the frontend then displays to the user.
+
 -**MongoDB Logging**: The backend stores the prediction results and image in MongoDB. Images are stored using GridFS, a specification for storing large files in MongoDB, while classification results (image name, predicted label, confidence score) are stored in the predictions collection for future analysis.
+
 -**Image Storage in MongoDB (GridFS)**: With GridFS, the application can efficiently store and retrieve large images. It breaks the images into smaller chunks and stores them across multiple documents, making it scalable and optimized for large datasets.
 
 ### Networking
@@ -68,6 +72,10 @@ Docker Compose automatically sets up an internal network, allowing the frontend,
 
 ### Improvements from Previous Version
 -**GridFS Image Storage**: Images are now stored in MongoDB's GridFS, enabling better handling of large images.
+
 -**Enhanced Code Structure**: The project is more modular, making it easier to maintain and extend.
+
 -**Docker-Optimized Architecture**: Ensures fast and reproducible environment setups with Docker, making deployments seamless.
+
 -**Streamlined Logging**: Prediction details and images are now more efficiently logged, improving scalability and future analysis capabilities.
+
